@@ -1,0 +1,22 @@
+{
+  "name": "test-by-click",
+  "version": "1.0.0",
+  "description": "Tool to test webapps by recording the interaction of the mouse and the keyboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ctwhome@github.com/ctwhome/Test-by-Click.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctwhome/Test-by-Click/issues"
+  },
+  "homepage": "https://github.com/ctwhome/Test-by-Click#readme",
+  "dependencies": {
+    "electron": "^0.4.1"
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="utils/testbyclick/styles.css">
+</head>
+<body>
+<header>
+    <div class="left">
+        <div>Test By Click</div>
+
+        <div class="debug">
+            general:
+            gx: <span id="gx"></span>
+            gy: <span id="gy"></span>
+
+            inside:
+            x: <span id="x"></span>
+            y: <span id="y"></span>
+        </div>
+    </div>
+
+    <div class="right">
+        Clicks: <span id="clicks">0</span> |
+        Keys Pressed: <span id="keyspressed">0</span>
+
+        <button id="start">Record</button>
+        <button id="stop" disabled>Stop</button>
+        <button id="reset">Reset</button>
+        <button id="simulate">Simulate Clicks</button>
+        <br>
+        <input type="text"
+               id="websrc"
+               name="website"
+               size="50"
+               placeholder="web to start / same domain: localhost:11124" />
+
+        <button id="load">Load</button>
+    </div>
+</header>
+
+
+<div class="main-container">
+
+    <div class="sidenav">
+        <h4>Todo:</h4>
+        <ul>
+            <li>Visualize correctly the points when clciking and moving</li>
+            <li>Study how to access to the overview panels and modals</li>
+            <li>Add list of recorders</li>
+            <li>Posibility of create scripts of recordings to simulate complex tasks</li>
+            <li>Be able to attach files to file inputs</li>
+        </ul>
+    </div>
+
+    <iframe src="http://localhost:3000/"
+            id="iframe"
+            width="1024"
+            height="728"
+            frameborder="0">
+    </iframe>
+
+</div>
+
+</body>
+<script src="Scripts/bower-components/jquery/dist/jquery.min.js" crossorigin="anonymous"></script>
+<script src="utils/testbyclick/testbyclick.js" type="text/javascript"></script>
+</html>
+
